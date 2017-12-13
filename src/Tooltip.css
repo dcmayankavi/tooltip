@@ -15,6 +15,7 @@
     opacity: 0;
     visibility: hidden;
     bottom: 0;
+    left: -1em;
 }
 
 .activate .tooltip-content-wrapper {
@@ -38,7 +39,10 @@
 	text-decoration: none;
 	background: #333;
 	color: #eee;
-	padding-left: .3em;
+	font-size: .75em;
+	width: 1.6em;
+	height: 1.6em;
+	line-height: 1.6;
 	border-radius: 50%;
 	text-align: center;
 	display: inline-block;
@@ -48,7 +52,7 @@
     transform: rotate(90deg) translate(100%);
     display: inline-block;
     color: #333;
-    left: 5px;
-    bottom: 0;
+	left: 1.1em;
+	bottom: -.1em;
     position: absolute;
 }
